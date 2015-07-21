@@ -4,7 +4,7 @@
                             Gazie - Gestione Azienda
     Copyright (C) 2004-2010 - Antonio De Vincentiis Montesilvano (PE)
          (http://www.devincentiis.it)
-                        <http://gazie.sourceforge.net>
+                        <http://gazie.devincentiis.it>
 	Spanish Translation by Dante Becerra Lagos softenglish@gmail.com
  --------------------------------------------------------------------------
     Questo programma e` free software;   e` lecito redistribuirlo  e/o

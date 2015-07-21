@@ -4,7 +4,7 @@
                             GAzie - Gestione Azienda
     Copyright (C) 2004-2015 - Antonio De Vincentiis Montesilvano (PE)
                              (http://www.devincentiis.it)
-            <http://gazie.sourceforge.net>
+            <http://gazie.devincentiis.it>
 
                       OSCAT - Gestione Centri Ass. Tecnica
                   Copyright (C) 2005 - Maurizio Lapini Pistoia (PT)

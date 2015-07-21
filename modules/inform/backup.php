@@ -4,7 +4,7 @@
                             GAzie - Gestione Azienda
     Copyright (C) 2004-2015 - Antonio De Vincentiis Montesilvano (PE)
          (http://www.devincentiis.it)
-           <http://gazie.sourceforge.net>
+           <http://gazie.devincentiis.it>
  --------------------------------------------------------------------------
     Questo programma e` free software;   e` lecito redistribuirlo  e/o
     modificarlo secondo i  termini della Licenza Pubblica Generica GNU
@@ -110,7 +110,7 @@ if ($form['do_backup'] != 1)
     }
     echo "-- GAzie SQL Dump\n";
     echo "-- version: ".$versSw."\n";
-    echo "-- http://gazie.sourceforge.net\n";
+    echo "-- http://gazie.devincentiis.it\n";
     echo "-- Date: ".date("d-m-Y H:i:s")."\n";
     echo "-- OS: ".PHP_OS."\n";
     echo "-- Host: ".$_SERVER["HTTP_HOST"]."\n";

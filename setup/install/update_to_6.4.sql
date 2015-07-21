@@ -6,7 +6,7 @@ UPDATE `gaz_menu_module` SET `link` = 'docume_inform.php' WHERE `link` = 'gaziec
 INSERT INTO `gaz_menu_script` SELECT MAX(id)+1, (SELECT id FROM `gaz_menu_module` WHERE `link` = 'docume_inform.php' LIMIT 1), 'gaziecart_update.php', '', '', '6', '', '1'  FROM `gaz_menu_script`;
 INSERT INTO `gaz_menu_script` SELECT MAX(id)+1, (SELECT id FROM `gaz_menu_module` WHERE `link` = 'docume_inform.php' LIMIT 1), 'gazie_site_update.php', '', '', '7', '', '2'  FROM `gaz_menu_script`;
 -- START_WHILE ( questo e' un tag che serve per istruire install.php ad INIZIARE ad eseguire le query seguenti su tutte le aziende dell'installazione)
-INSERT INTO `gaz_XXXcompany_config` (`description`, `var`, `val`) VALUES ( 'Gazie - Gestionale', 'ruburl', 'http://gazie.sourceforge.net/');
+INSERT INTO `gaz_XXXcompany_config` (`description`, `var`, `val`) VALUES ( 'Gazie - Gestionale', 'ruburl', 'http://gazie.devincentiis.it/');
 INSERT INTO `gaz_XXXcompany_data` (`id`, `description`, `var`, `data`, `ref`) VALUES
 (1, '', 'website_title', '- website generator', ''),
 (2, '', 'website_subtitle', 'erp free and open source', ''),

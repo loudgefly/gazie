@@ -4,7 +4,7 @@
                             GAzie - Gestione Azienda
     Copyright (C) 2004-2015 - Antonio De Vincentiis Montesilvano (PE)
          (http://www.devincentiis.it)
-           <http://gazie.sourceforge.net>
+           <http://gazie.devincentiis.it>
  --------------------------------------------------------------------------
     Questo programma e` free software;   e` lecito redistribuirlo  e/o
     modificarlo secondo i  termini della Licenza Pubblica Generica GNU
@@ -121,7 +121,7 @@ echo "<div id='admin_footer'>";
 echo "<div align=\"center\"><br /> GAzie Version: $versSw Software Open Source (lic. GPL) ".$script_transl['business']." ".$script_transl['proj']."<a  target=\"_new\" title=\"".$script_transl['auth']."\" href=\"http://http://www.devincentiis.it\"> http://www.devincentiis.it</a></div>\n";
 echo '<div><table border="0" class="Tmiddle">';
 echo "<tr align=\"center\"><td>\n";
-echo "<a href=\"http://gazie.sourceforge.net\" target=\"_new\" title=\"".$script_transl['devel']." www.gazie.it\"><img src=\"../../library/images/gazie.gif\" height=\"38\" border=\"0\"></a>\n";
+echo "<a href=\"http://gazie.devincentiis.it\" target=\"_new\" title=\"".$script_transl['devel']." www.gazie.it\"><img src=\"../../library/images/gazie.gif\" height=\"38\" border=\"0\"></a>\n";
 foreach ($script_transl['strBottom'] as $value){
         echo "<a href=\"".$value['href']."\" title=\"".$value['title']."\" target=\"_NEW\" >";
         // echo "<img src=\"http://".$_SERVER['HTTP_HOST']."/".$radix."/library/images/".$value['img']."\" border=\"0\" ></a>\n";
